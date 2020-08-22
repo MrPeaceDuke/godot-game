@@ -1,0 +1,6 @@
+D:\Projects\Surviveit\.mono\temp\bin\Debug\Surviveit.dll
+D:\Projects\Surviveit\.mono\temp\bin\Debug\Surviveit.pdb
+D:\Projects\Surviveit\.mono\temp\obj\Debug\Surviveit.csprojAssemblyReference.cache
+D:\Projects\Surviveit\.mono\temp\obj\Debug\Surviveit.csproj.CoreCompileInputs.cache
+D:\Projects\Surviveit\.mono\temp\obj\Debug\Surviveit.dll
+D:\Projects\Surviveit\.mono\temp\obj\Debug\Surviveit.pdb
