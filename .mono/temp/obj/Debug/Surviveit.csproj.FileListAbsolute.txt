@@ -4,3 +4,9 @@ D:\Projects\Surviveit\.mono\temp\obj\Debug\Surviveit.csprojAssemblyReference.cac
 D:\Projects\Surviveit\.mono\temp\obj\Debug\Surviveit.csproj.CoreCompileInputs.cache
 D:\Projects\Surviveit\.mono\temp\obj\Debug\Surviveit.dll
 D:\Projects\Surviveit\.mono\temp\obj\Debug\Surviveit.pdb
+D:\Projects\Surviveit-git\.mono\temp\bin\Debug\Surviveit.dll
+D:\Projects\Surviveit-git\.mono\temp\bin\Debug\Surviveit.pdb
+D:\Projects\Surviveit-git\.mono\temp\obj\Debug\Surviveit.csprojAssemblyReference.cache
+D:\Projects\Surviveit-git\.mono\temp\obj\Debug\Surviveit.csproj.CoreCompileInputs.cache
+D:\Projects\Surviveit-git\.mono\temp\obj\Debug\Surviveit.dll
+D:\Projects\Surviveit-git\.mono\temp\obj\Debug\Surviveit.pdb

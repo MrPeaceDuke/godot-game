@@ -36,13 +36,14 @@ func _take(object):
 		if coins%3==0 and timerDelay > 0.1:
 			timerDelay -= 0.1
 		timer.set_wait_time(timerDelay)
-		print(timerDelay)
+		#print(timerDelay)
 	if "bomb" in owner.name:
 		owner.queue_free()
 		lifes -= 1
 		$Camera2D/LabelLife.text = "Lifes - " + str(lifes)
 		if lifes < 1:
-			get_tree().reload_current_scene()
+			get_node("/root/globals").setBestScore(coins)
+			get_node("/root/globals").setScene("res://Main Menu.tscn")
 
 func _death(object):
 	var owner = object.get_owner()

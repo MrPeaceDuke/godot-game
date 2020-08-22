@@ -16,8 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Surviveit"
-run/main_scene="res://Main scene.tscn"
+run/main_scene="res://Main Menu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+globals="*res://global.gd"
 
 [display]
 
