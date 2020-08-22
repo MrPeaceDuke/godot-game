@@ -43,7 +43,9 @@ func _take(object):
 		$Camera2D/LabelLife.text = "Lifes - " + str(lifes)
 		if lifes < 1:
 			get_node("/root/globals").setBestScore(coins)
+			get_node("/root/globals").save_settings()
 			get_node("/root/globals").setScene("res://Main Menu.tscn")
+			
 
 func _death(object):
 	var owner = object.get_owner()

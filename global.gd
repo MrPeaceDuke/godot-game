@@ -1,13 +1,34 @@
 extends Node2D
 
-var currentScene = null
+var settings_file = "res://settings.save"
 
 var PlayerName = "Andrey"
+var bestScore = 0
+
+
+func save_settings():
+	var f = File.new()
+	f.open(settings_file, File.WRITE)
+	f.store_var(PlayerName)
+	f.store_var(bestScore)
+	f.close()
+
+func load_settings():
+	var f = File.new()
+	if f.file_exists(settings_file):
+		f.open(settings_file, File.READ)
+		PlayerName = f.get_var()
+		bestScore = f.get_var()
+		f.close()
+
+
+var currentScene = null
+
 
 func getPlayerName():
 	return PlayerName
 
-var bestScore = 0
+
 
 func getBestScore():
 	return bestScore
@@ -15,7 +36,6 @@ func getBestScore():
 func setBestScore(score):
 	if score > bestScore:
 		bestScore = score
-
 
 
 func _ready():
